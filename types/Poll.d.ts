@@ -4,10 +4,8 @@
  */
 declare interface Poll {
     id?: number;
-    title: string;
-    closesAt?: string | null;
+    question: string;
     createdAt?: string | null;
-    updatedAt?: string | null;
 }
 
 export { Poll };
