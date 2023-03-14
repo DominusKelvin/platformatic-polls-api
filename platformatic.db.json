@@ -15,8 +15,8 @@
   "migrations": {
     "dir": "migrations"
   },
-  "plugin": {
-    "path": "plugin.js"
+  "plugins": {
+    "paths": ["plugin.js"]
   },
   "types": {
     "autogenerate": true
