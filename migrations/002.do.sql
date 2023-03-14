@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS poll_options (
+  id INTEGER PRIMARY KEY,
+  poll_id INTEGER REFERENCES polls(id),
+  title TEXT NOT NULL,
+  vote_counts INTEGER DEFAULT 0,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
